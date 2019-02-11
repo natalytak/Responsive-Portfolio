@@ -6,7 +6,7 @@ html {
 }
 
 #wrapper {
-    max-width: 960px;
+    max-width: 90%;
 }
 
 header {
@@ -161,7 +161,7 @@ h2 {
           background-color: #4aaaa5;
           color: whitesmoke;
           margin-top: -10px;
-          padding: 15px 0;
+          padding: 5px 0;
           text-align: center;
           top: 80%;
           left: 50%;
@@ -239,6 +239,9 @@ h2 {
         input[type=reset] {
             font-size: 1.2em;
         }
+        form {
+            max-width: 80%;
+        }
     }
 
   @media screen and (min-width: 768px) {
@@ -247,6 +250,9 @@ h2 {
     }
     input[type=reset] {
         font-size: 1em;
+    }
+    form {
+        max-width: 80%;
     }
   }
 
